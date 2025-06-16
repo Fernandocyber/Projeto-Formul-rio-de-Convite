@@ -4,6 +4,85 @@
     box-sizing: border-box;
 }
 
-:root{
-    
+:root {
+
+    /* Brand */
+--brand-light: #59B2FF;
+--brand-mid: #3487CF;
+--brand-dark: #1D6FB6;
+
+
+/* Accent Colors */
+--purple: #B259FF;
+--fuschia: #FF59F9;
+--pink: #FF598B;
+--orange: #FF8B59;
+--yellow: #FFCD59;
+--lime: #E1FF59;
+--green: #59FF91;
+--cyan: #59FFF9;
+--navy: #6A59FF;
+
+/* Feedback */
+--danger: #FF5959;
+
+
+/* Input */
+--shape-background: #131516;
+--shape-body: #212427;
+--shape-button: #2D3136;
+--shape-hover: #383D42;
+
+
+/* Text */
+--text-body: #C8CDD0;
+--text-heading: #F9F9F9;
+
+
+/* Font Family Leckerli One */
+--font-leckerli-one: 'Leckerli One', sans-serif;
+--font-logo: 400 2.5rem normal var(--font-leckerli-one);
+
+/* Font Family Baloo 2 */
+--font-baloo-2: 'baloo 2', sans-serif;
+--heading-md: 800 1.75rem normal var(--font-baloo-2);
+--heading-sm: 800 1.125rem normal var(--font-baloo-2);
+
+
+/* Font Family Open Sans */
+--font-Open-Sans: 'Open Sans', sans-serif;
+--font-weight-regular: 400;
+--font-weight-semibold: 600;
+--line-height-auto: normal; /* line-height no CSS é 'normal' */
+
+
+--font-size-body-md: 1rem; 
+--body-md-regular: var(--font-weight-regular) var(--font-size-body-md) / var(--line-height-auto) var(--font-Open-Sans);
+--body-md-semibold: var(--font-weight-semibold) var(--font-size-body-md) / var(--line-height-auto) var(--font-Open-Sans);
+
+
+--font-size-body-sm: 0.875rem; 
+--body-sm-regular: var(--font-weight-regular) var(--font-size-body-sm) / var(--line-height-auto) var(--font-Open-Sans);
+--body-sm-semibold: var(--font-weight-semibold) var(--font-size-body-sm) / var(--line-height-auto) var(--font-Open-Sans);
+
+
+--font-size-body-xs: 0.75rem; 
+--body-xs-regular: var(--font-weight-regular) var(--font-size-body-xs) / var(--line-height-auto) var(--font-Open-Sans);
+--body-xs-semibold: var(--font-weight-semibold) var(--font-size-body-xs) / var(--line-height-auto) var(--font-Open-Sans);
+
+
+  
+
+
 }
+  
+
+
+
+
+
+
+
+
+
+
