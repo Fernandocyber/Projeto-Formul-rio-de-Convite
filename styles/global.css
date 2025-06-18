@@ -6,6 +6,9 @@
 
 :root {
 
+  font-size: 62.5%;
+  /* 1rem = 10px */
+
     /* Brand */
 --brand-light: #59B2FF;
 --brand-mid: #3487CF;
@@ -34,7 +37,7 @@
 --shape-hover: #383D42;
 
 
-/* Text */
+/* color Text */
 --text-body: #C8CDD0;
 --text-heading: #F9F9F9;
 
@@ -50,30 +53,11 @@
 
 
 /* Font Family Open Sans */
---font-Open-Sans: 'Open Sans', sans-serif;
---font-weight-regular: 400;
---font-weight-semibold: 600;
---line-height-auto: normal; /* line-height no CSS é 'normal' */
-
-
---font-size-body-md: 1rem; 
---body-md-regular: var(--font-weight-regular) var(--font-size-body-md) / var(--line-height-auto) var(--font-Open-Sans);
---body-md-semibold: var(--font-weight-semibold) var(--font-size-body-md) / var(--line-height-auto) var(--font-Open-Sans);
-
-
---font-size-body-sm: 0.875rem; 
---body-sm-regular: var(--font-weight-regular) var(--font-size-body-sm) / var(--line-height-auto) var(--font-Open-Sans);
---body-sm-semibold: var(--font-weight-semibold) var(--font-size-body-sm) / var(--line-height-auto) var(--font-Open-Sans);
-
-
---font-size-body-xs: 0.75rem; 
---body-xs-regular: var(--font-weight-regular) var(--font-size-body-xs) / var(--line-height-auto) var(--font-Open-Sans);
---body-xs-semibold: var(--font-weight-semibold) var(--font-size-body-xs) / var(--line-height-auto) var(--font-Open-Sans);
-
-
-  
-
-
+--font-open-sans: 'Open Sans', sans-serif;
+--font-body-md: 400 1rem normal var(--font-open-sans);
+--font-body-sm: 400 0.875rem normal var(--font-open-sans);
+--font-body-xs: 400 0.75rem normal var(--font-open-sans);
+ 
 }
   
 
