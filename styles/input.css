@@ -1,0 +1,23 @@
+main {
+  overflow: auto;
+  padding-right: 2rem;
+
+}
+
+.main-container {
+
+  background-color: var(--shape-body);
+  border-radius: 2rem;
+  padding: 8rem 10rem;
+
+  width: 100%;
+  
+}
+
+h1 {
+  font: var(--heading-md);
+  color: var(--text-heading);
+}
+
+
+

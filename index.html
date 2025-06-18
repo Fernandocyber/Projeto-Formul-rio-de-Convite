@@ -32,9 +32,83 @@
           <p>Crie um convite digital para o seu evento</p>
         </div>
     </aside>
-    <main>
-      
-    </main>
 
+     <div class="main-container">
+          <h1>Crie seu convite</h1>
+
+          <form action="" method="post" enctype="multipart/form-data">
+            <fieldset class="about">
+              <legend>
+                <img src="assets/icons/calendar.svg" alt="ícone de calendário">
+                <span>Sobre o evento</span>
+              </legend>
+
+              <div class="input-wrapper">
+                <label for="title">Título</label>
+                <input 
+                  type="text" 
+                  id="title" 
+                  name="title" 
+                  placeholder="Nome do evento">
+              </div>
+
+              <div class="flex">
+                <div class="input-wrapper flex-1">
+                  <label for="start">Início</label>
+                  <input id="start" name="start" type="datetime-local" lang="pt-BR">
+                </div>
+  
+                <div class="input-wrapper flex-1">
+                  <label for="end">Fim</label>
+                  <input id="end" name="end" type="datetime-local" lang="pt-BR">
+                </div>
+              </div>
+
+
+              <div class="flex">
+                
+                <div class="type-wrapper flex-1">
+                  <span>Tipo</span>
+
+                  <div class="type-selector">
+
+                    <input type="radio" id="presencial" name="tipo_evento" value="presencial" checked>
+                    <label for="presencial" class="type-option">
+                      <img src="assets/icons/building-2.svg" alt="" />
+                      Presencial
+                    </label>
+
+                    <input type="radio" id="online" name="tipo_evento" value="online">
+                    <label for="online" class="type-option">
+                      <img src="assets/icons/video.svg" alt="" />
+                      Online
+                    </label>
+                
+                    <div class="selector-highlight"></div>
+                
+                  </div>
+
+                </div>
+
+                <!-- ---------------------------- -->
+
+                <div class="input-wrapper flex-1">
+                  <label for="address">Local</label>
+                  <input 
+                    type="text" 
+                    id="address" 
+                    name="address" 
+                    placeholder="Link ou endereço">
+                </div>
+              </div>
+
+              <div class="textarea-wrapper">
+                <label for="description">Descrição</label>
+                <textarea 
+                  name="description" 
+                  id="description"
+                  cols="30" rows="5"
+                  placeholder="Escreva sobre os detalhes do evento"></textarea>
+              </div>
 </body>
 </html>
