@@ -1,72 +1,110 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root {
 
   font-size: 62.5%;
   /* 1rem = 10px */
 
-    /* Brand */
---brand-light: #59B2FF;
---brand-mid: #3487CF;
---brand-dark: #1D6FB6;
+  /* FONTS */
+  --leckerli-font: 'Leckerli One', sans-serif;
+  --logo-font: 400 4rem/normal var(--leckerli-font);
 
+  --baloo-font: 'Baloo 2', sans-serif;
+  --heading-md: 700 2.8rem/normal var(--baloo-font);
+  --heading-sm: 700 1.8rem/normal var(--baloo-font);
 
-/* Accent Colors */
---purple: #B259FF;
---fuschia: #FF59F9;
---pink: #FF598B;
---orange: #FF8B59;
---yellow: #FFCD59;
---lime: #E1FF59;
---green: #59FF91;
---cyan: #59FFF9;
---navy: #6A59FF;
+  --open-sans-font: 'Open Sans', sans-serif;
+  --body-text-md: 400 1.6rem/normal var(--open-sans-font);
+  --body-text-sm: 400 1.4rem/normal var(--open-sans-font);
+  --body-text-xs: 400 1.2rem/normal var(--open-sans-font);
 
-/* Feedback */
---danger: #FF5959;
+  /* COLORS */
+  --purple: #B259FF;
+  --fuchsia: #FF59F9;
+  --pink: #FF598b;
+  --orange: #FF8B59;
+  --yellow: #FFCD59;
+  --lime: #E1FF59;
+  --green: #59FF91;
+  --cyan: #59FFF9;
+  --brand-blue: #58b2ff;
+  --brand-blue-dark: #1d6fb6;
+  --brand-blue-mid: #3487CF;
+  --navy: #6A59FF;
+  --danger: #ff5959;
 
+  --input-base: #1C1F21;
+  --input-stroke: #363B40;
+  --input-placeholder: #869198;
 
-/* Input */
---shape-background: #131516;
---shape-body: #212427;
---shape-button: #2D3136;
---shape-hover: #383D42;
+  --bg-gradient: linear-gradient(180deg, rgba(33, 37, 38, 0.80) 0%, rgba(33, 37, 38, 0.65) 20%, rgba(33, 37, 38, 0.30) 40.5%, rgba(33, 37, 38, 0.10) 100%);
+  --shape-bg: #131516;
+  --shape-body: #212427;
+  --shape-btn: #2d3136;
+  --shape-hover: #383d42;
 
-
-/* color Text */
---text-body: #C8CDD0;
---text-heading: #F9F9F9;
-
-
-/* Font Family Leckerli One */
---font-leckerli-one: 'Leckerli One', sans-serif;
---font-logo: 400 2.5rem normal var(--font-leckerli-one);
-
-/* Font Family Baloo 2 */
---font-baloo-2: 'baloo 2', sans-serif;
---heading-md: 800 1.75rem normal var(--font-baloo-2);
---heading-sm: 800 1.125rem normal var(--font-baloo-2);
-
-
-/* Font Family Open Sans */
---font-open-sans: 'Open Sans', sans-serif;
---font-body-md: 400 1rem normal var(--font-open-sans);
---font-body-sm: 400 0.875rem normal var(--font-open-sans);
---font-body-xs: 400 0.75rem normal var(--font-open-sans);
- 
-}
+  --text-body: #c8cdd0;
+  --text-heading: #f9f9f9;
   
 
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: var(--shape-bg);
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+  overflow: hidden;
+}
 
+img {
+  /* max-width: 100%; */
+  height: auto;
+}
 
+a {
+  color: var(--brand-blue);
 
+}
 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+}
 
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
 
+/* Works on Firefox */
+/* * {
+  scrollbar-width: thin;
+  scrollbar-color: var(--shape-hover) var(--shape-body);
+} */
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--shape-body);
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--shape-hover);
+  border-radius: 20px;
+  border: 3px solid var(--shape-body);
+}

@@ -1,39 +1,33 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<html lang="pt-BR">
+  <head>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Convite</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>Festivite - Crie seu Convite</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Baloo+2:wght@400..800&family=Inconsolata:wght@200..900&family=Leckerli+One&family=Maven+Pro:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Leckerli+One&family=Maven+Pro:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Baloo+2:wght@400..800&family=Inconsolata:wght@200..900&family=Leckerli+One&family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css" />
 
-    <link rel="stylesheet" href="styles/index.css">
-</head>
-<body>
-  <div id="app">
-     <aside>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Leckerli+One&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div id="app">
+      
+      <aside>
         <div class="header">
-
           <img src="assets/Logo.svg" alt="Logo da Festinvite" class="logo">
-
           <h1>Festivite</h1>
-
           <p>Crie um convite digital para o seu evento</p>
         </div>
-    </aside>
-
-     <div class="main-container">
+      </aside>
+      <main>
+        <div class="main-container">
           <h1>Crie seu convite</h1>
 
           <form action="" method="post" enctype="multipart/form-data">
@@ -90,8 +84,6 @@
 
                 </div>
 
-                <!-- ---------------------------- -->
-
                 <div class="input-wrapper flex-1">
                   <label for="address">Local</label>
                   <input 
@@ -110,5 +102,245 @@
                   cols="30" rows="5"
                   placeholder="Escreva sobre os detalhes do evento"></textarea>
               </div>
-</body>
+              
+            </fieldset>
+
+            <fieldset class="personalization">
+
+              <legend>
+                <img src="assets/icons/paintbrush-vertical.svg" alt="ícone de calendário">
+                <span>Personalização</span>
+              </legend>
+
+              <div class="input-wrapper">
+
+                <span>Cor principal</span>
+
+                <div class="color-selector-wrapper flex">
+                  <div class="color">
+                    <input type="radio" name="color" id="color-1">
+                    <label for="color-1" class="color-1"></label>
+                  </div>
+                  <div class="color">
+                    <input type="radio" name="color" id="color-2">
+                    <label for="color-2" class="color-2"></label>
+                  </div>
+                  <div class="color">
+                    <input type="radio" name="color" id="color-3">
+                    <label for="color-3" class="color-3"></label>
+                  </div>
+                  <div class="color">
+                    <input type="radio" name="color" id="color-4">
+                    <label for="color-4" class="color-4"></label>
+                  </div>
+                  <div class="color">
+                    <input type="radio" name="color" id="color-5">
+                    <label for="color-5" class="color-5"></label>
+                  </div>
+                  <div class="color">
+                    <input type="radio" name="color" id="color-6">
+                    <label for="color-6" class="color-6"></label>
+                  </div>
+                  <div class="color">
+                    <input type="radio" name="color" id="color-7">
+                    <label for="color-7" class="color-7"></label>
+                  </div>
+                  <div class="color">
+                    <input type="radio" name="color" id="color-8">
+                    <label for="color-8" class="color-8"></label>
+                  </div>
+                  <div class="color">
+                    <input type="radio" name="color" id="color-9">
+                    <label for="color-9" class="color-9"></label>
+                  </div>
+                  <div class="color">
+                    <input type="radio" name="color" id="color-10">
+                    <label for="color-10" class="color-10"></label>
+                  </div>
+                  <div class="color">
+                    <input type="radio" name="color" id="color-11">
+                    <label for="color-11" class="color-11"></label>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="input-wrapper">
+                <span>Tema do evento</span>
+
+                <div class="theme-selector-wrapper flex">
+                  <div class="theme-input">
+                    <input type="radio" name="theme" id="theme-1">
+                    <img src="assets/images/aniversario.png" alt="">
+                    <label for="theme-1" class="theme-1">Aniversário</label>
+                  </div>
+                  <div class="theme-input">
+                    <input type="radio" name="theme" id="theme-2">
+                    <img src="assets/images/infantil.png" alt="">
+                    <label for="theme-2" class="theme-2">Infantil</label>
+                  </div>
+                  <div class="theme-input">
+                    <input type="radio" name="theme" id="theme-3">
+                    <img src="assets/images/formatura.png" alt="">
+                    <label for="theme-3" class="theme-3">Formatura</label>
+                  </div>
+                  <div class="theme-input">
+                    <input type="radio" name="theme" id="theme-4">
+                    <img src="assets/images/casamento.png" alt="">
+                    <label for="theme-4" class="theme-4">Casamento</label>
+                  </div>
+                  <div class="theme-input">
+                    <input type="radio" name="theme" id="theme-5">
+                    <img src="assets/images/cha de  bb.png" alt="">
+                    <label for="theme-5" class="theme-5">Chá de bebê</label>
+                  </div>
+                  <div class="theme-input">
+                    <input type="radio" name="theme" id="theme-6">
+                    <img src="assets/images/cha de panela.png" alt="">
+                    <label for="theme-6" class="theme-6">Chá de panela</label>
+                  </div>
+                  <div class="theme-input">
+                    <input type="radio" name="theme" id="theme-7">
+                    <img src="assets/images/carnaval.png" alt="">
+                    <label for="theme-7" class="theme-7">Carnaval</label>
+                  </div>
+                  <div class="theme-input">
+                    <input type="radio" name="theme" id="theme-8">
+                    <img src="assets/images/pascoa.png" alt="">
+                    <label for="theme-8" class="theme-8">Páscoa</label>
+                  </div>
+                  <div class="theme-input">
+                    <input type="radio" name="theme" id="theme-9">
+                    <img src="assets/images/sao joao.png" alt="">
+                    <label for="theme-9" class="theme-9">São João</label>
+                  </div>
+                  <div class="theme-input">
+                    <input type="radio" name="theme" id="theme-10">
+                    <img src="assets/images/hallowen.png" alt="">
+                    <label for="theme-10" class="theme-10">Halloween</label>
+                  </div>
+                  <div class="theme-input">
+                    <input type="radio" name="theme" id="theme-11">
+                    <img src="assets/images/natal.png" alt="">
+                    <label for="theme-11" class="theme-11">Natal</label>
+                  </div>
+                  <div class="theme-input">
+                    <input type="radio" name="theme" id="theme-12">
+                    <img src="assets/images/outros.png" alt="">
+                    <label for="theme-12" class="theme-12">Outro</label>
+                  </div>
+
+                </div>
+              </div>
+
+
+              <div class="style-wrapper flex">
+
+                <div class="checkbox-wrapper flex-1">
+                  <span class="style-title">Estilo</span>
+                  
+                  <div class="toggle-button">
+                    
+                    <div class="toggle-button-wrapper">
+                      <input type="checkbox" name="style" id="toggle">
+                      <label for="toggle" class="dark"></label>
+                      <span class="toggle-text"></span>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+                <div class="droparea-wrapper flex-2">
+                  <span>Foto de capa</span>
+                  
+                  <div class="droparea">
+                    <label for="cover" class="droparea-label">
+                      <img src="assets/icons/upload (2).svg" alt="">
+                      <span>Selecionar</span>
+                    </label>
+                    <input type="file" name="cover" id="cover" accept="image/*">
+                  </div>
+                </div>
+                
+              </div>
+            </fieldset>
+
+            <fieldset class="contact">
+              <legend>
+                <img src="assets/icons/contact.svg" alt="ícone de agenda">
+                <span>Dados para contato</span>
+              </legend>
+
+              <div class="input-wrapper">
+                <label for="name">Nome</label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  placeholder="Nome completo"
+                  required>
+                <div class="error">
+                  <img src="assets/icons/circle-alert.svg" alt="ícone de erro">
+                  <span>Campo obrigatório</span>
+                </div>
+              </div>
+
+              <div class="flex">
+                <div class="input-wrapper flex-1">
+                  <label for="mail">E-mail</label>
+                  <input 
+                    id="mail" 
+                    name="mail" 
+                    type="email"
+                    placeholder="exemplo@email.com">
+                </div>
+  
+                <div class="input-wrapper flex-1">
+                  <label for="phone">Telefone</label>
+                  <input 
+                    id="phone" 
+                    name="phone" 
+                    type="text" 
+                    placeholder="(99) 99999-9999">
+                </div>
+
+              </div>
+            </fieldset>
+
+            <div class="terms-wrapper flex">
+
+              <div class="terms-checkbox-wrapper flex">
+                <div class="terms-checkbox-image"></div>
+                <input type="checkbox" name="terms" id="terms" required>
+                <label for="terms">Li e concordo com os <a href="#">Termos e Condições</a> e com a <a href="#">Política de Privacidade</a></label>
+              </div>
+
+              <div class="terms-checkbox-wrapper flex">
+                <div class="terms-checkbox-image"></div>
+                <input type="checkbox" name="receive-email" id="receive-email">
+                <label for="receive-email">Aceito receber atualizações e promoções por e-mail</label>
+              </div>
+
+              <div class="terms-checkbox-wrapper flex">
+                <div class="terms-checkbox-image"></div>
+                <input type="checkbox" name="receive-sms" id="receive-sms">
+                <label for="receive-sms">Aceito receber atualizações e promoções por SMS</label>
+              </div>
+
+            </div>
+
+
+            <div class="button-wrapper">
+              <button type="submit" class="button">
+                <img src="assets/icons/ticket.svg" alt="ícone de ingresso" class="ticket-icon">
+                Criar convite
+              </button>
+            </div>
+
+          </form>
+        </div>
+      </main>
+
+    </div>
+  </body>
 </html>
