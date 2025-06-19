@@ -32,7 +32,7 @@ aside {
     }
   
     & p {
-      font: var(--body-text-md);
+      font: var(--heading-md);
       font-weight: 300;
       color: var(--text-heading);
     }
