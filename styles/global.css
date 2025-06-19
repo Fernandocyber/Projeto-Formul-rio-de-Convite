@@ -98,10 +98,10 @@ a {
   width: 12px;
 }
 
-*::-webkit-scrollbar-track {
+/* *::-webkit-scrollbar-track {
   background: var(--shape-body);
   border-radius: 10px;
-}
+} */
 
 *::-webkit-scrollbar-thumb {
   background-color: var(--shape-hover);

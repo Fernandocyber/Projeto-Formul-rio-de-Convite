@@ -20,7 +20,7 @@ aside {
 
   & .header {
     & img {
-      height: 4.8rem;
+      height: 2.8rem;
       margin-bottom: 1.6rem;
     }
   
@@ -32,7 +32,7 @@ aside {
     }
   
     & p {
-      font: var(--heading-md);
+      font: var(--heading-sm);
       font-weight: 300;
       color: var(--text-heading);
     }
