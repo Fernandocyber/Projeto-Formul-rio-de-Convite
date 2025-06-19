@@ -2,7 +2,8 @@
 
 Este projeto é um site desktop para criação de convites personalizados para eventos, desenvolvido com HTML5 e CSS3. O objetivo foi criar um formulário funcional, moderno e com boa usabilidade, seguindo o layout disponibilizado no Figma. A aplicação permite ao usuário inserir informações como nome, data do evento e escolher temas através de inputs personalizados.
 
-🔗 👉 Acesse meu repositório GitHub aqui
+🔗 👉 <a href="https://fernandocyber.github.io/Projeto-Formulario-de-convite/" target="_blank">Clique aqui para ver o projeto funcionando</a>
+
 
 🔍 Visão Geral
 
@@ -64,5 +65,6 @@ Exportação de SVGs <img align="center" alt="icon-CSS" height="30" width="40" s
 
 📸 Demonstração Online
 
-👉 Clique aqui para ver o projeto funcionando:
-https://fernandocyber.github.io/Projeto-Formulario-de-convite/
+👉 <a href="https://fernandocyber.github.io/Projeto-Formulario-de-convite/" target="_blank">Clique aqui para ver o projeto funcionando</a>
+
+
